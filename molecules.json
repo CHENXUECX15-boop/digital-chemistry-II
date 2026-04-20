@@ -1,0 +1,257 @@
+[
+    {
+        "molecule_id": "M001",
+        "name": "Methanol",
+        "formula": "CH4O",
+        "class": "primary alcohol",
+        "carbon_number": 1,
+        "notes": "C1 alcohol",
+        "properties": {
+            "molar_mass_g_mol": 32.0419,
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "flammable": "yes",
+            "signal_word": "Danger",
+            "hazard_category": "Highly flammable and toxic"
+        }
+    },
+    {
+        "molecule_id": "M002",
+        "name": "Formaldehyde",
+        "formula": "CH2O",
+        "class": "aldehyde",
+        "carbon_number": 1,
+        "notes": "methanal",
+        "properties": {
+            "molar_mass_g_mol": 30.026,
+            "phase_25C": "gas"
+        },
+        "safety": {
+            "flammable": "yes",
+            "signal_word": "Danger",
+            "hazard_category": "Flammable and harmful/irritant"
+        }
+    },
+    {
+        "molecule_id": "M003",
+        "name": "Formic acid",
+        "formula": "CH2O2",
+        "class": "carboxylic acid",
+        "carbon_number": 1,
+        "notes": "methanoic acid",
+        "properties": {
+            "molar_mass_g_mol": 46.0254,
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "flammable": "no",
+            "signal_word": "Warning",
+            "hazard_category": "Corrosive/irritant"
+        }
+    },
+    {
+        "molecule_id": "M004",
+        "name": "Carbon monoxide",
+        "formula": "CO",
+        "class": "oxide",
+        "carbon_number": 1,
+        "notes": "C1 oxide",
+        "properties": {
+            "molar_mass_g_mol": 28.0101,
+            "phase_25C": "gas"
+        },
+        "safety": {
+            "flammable": "yes",
+            "signal_word": "Danger",
+            "hazard_category": "Flammable toxic gas"
+        }
+    },
+    {
+        "molecule_id": "M005",
+        "name": "Carbon dioxide",
+        "formula": "CO2",
+        "class": "oxide",
+        "carbon_number": 1,
+        "notes": "C1 oxide",
+        "properties": {
+            "molar_mass_g_mol": 44.0095,
+            "phase_25C": "gas"
+        },
+        "safety": {
+            "flammable": "no",
+            "signal_word": "Warning",
+            "hazard_category": "Compressed/asphyxiant gas context dependent"
+        }
+    },
+    {
+        "molecule_id": "M006",
+        "name": "Ethene",
+        "formula": "C2H4",
+        "class": "alkene",
+        "carbon_number": 2,
+        "notes": "ethylene",
+        "properties": {
+            "molar_mass_g_mol": 28.0532,
+            "phase_25C": "gas"
+        },
+        "safety": {
+            "flammable": "yes",
+            "signal_word": "Danger",
+            "hazard_category": "Extremely flammable gas"
+        }
+    },
+    {
+        "molecule_id": "M007",
+        "name": "Ethanol",
+        "formula": "C2H6O",
+        "class": "primary alcohol",
+        "carbon_number": 2,
+        "notes": "C2 alcohol",
+        "properties": {
+            "molar_mass_g_mol": 46.0684,
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "flammable": "yes",
+            "signal_word": "Danger",
+            "hazard_category": "Highly flammable liquid and vapor"
+        }
+    },
+    {
+        "molecule_id": "M008",
+        "name": "Acetaldehyde",
+        "formula": "C2H4O",
+        "class": "aldehyde",
+        "carbon_number": 2,
+        "notes": "ethanal",
+        "properties": {
+            "molar_mass_g_mol": 44.0526,
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "flammable": "yes",
+            "signal_word": "Danger",
+            "hazard_category": "Highly flammable and irritating"
+        }
+    },
+    {
+        "molecule_id": "M009",
+        "name": "Acetic acid",
+        "formula": "C2H4O2",
+        "class": "carboxylic acid",
+        "carbon_number": 2,
+        "notes": "ethanoic acid",
+        "properties": {
+            "molar_mass_g_mol": 60.052,
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "flammable": "yes_or_no_depends_on_concentration",
+            "signal_word": "Warning_or_Danger",
+            "hazard_category": "Corrosive and irritating"
+        }
+    },
+    {
+        "molecule_id": "M010",
+        "name": "1-Propanol",
+        "formula": "C3H8O",
+        "class": "primary alcohol",
+        "carbon_number": 3,
+        "notes": "propan-1-ol",
+        "properties": {
+            "molar_mass_g_mol": 60.095,
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "flammable": "yes",
+            "signal_word": "Danger",
+            "hazard_category": "Flammable liquid and vapor"
+        }
+    },
+    {
+        "molecule_id": "M011",
+        "name": "Propanal",
+        "formula": "C3H6O",
+        "class": "aldehyde",
+        "carbon_number": 3,
+        "notes": "propionaldehyde",
+        "properties": {
+            "molar_mass_g_mol": 58.0791,
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "flammable": "yes",
+            "signal_word": "Danger",
+            "hazard_category": "Flammable and irritating"
+        }
+    },
+    {
+        "molecule_id": "M012",
+        "name": "Propionic acid",
+        "formula": "C3H6O2",
+        "class": "carboxylic acid",
+        "carbon_number": 3,
+        "notes": "propanoic acid",
+        "properties": {
+            "molar_mass_g_mol": 74.0785,
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "flammable": "no",
+            "signal_word": "Warning",
+            "hazard_category": "Corrosive/irritant"
+        }
+    },
+    {
+        "molecule_id": "M013",
+        "name": "2-Propanol",
+        "formula": "C3H8O",
+        "class": "secondary alcohol",
+        "carbon_number": 3,
+        "notes": "propan-2-ol or isopropanol",
+        "properties": {
+            "molar_mass_g_mol": 60.095,
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "flammable": "yes",
+            "signal_word": "Danger",
+            "hazard_category": "Highly flammable liquid and vapor"
+        }
+    },
+    {
+        "molecule_id": "M014",
+        "name": "Acetone",
+        "formula": "C3H6O",
+        "class": "ketone",
+        "carbon_number": 3,
+        "notes": "propanone",
+        "properties": {
+            "molar_mass_g_mol": 58.0791,
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "flammable": "yes",
+            "signal_word": "Danger",
+            "hazard_category": "Highly flammable liquid and vapor"
+        }
+    },
+    {
+        "molecule_id": "M015",
+        "name": "Propene",
+        "formula": "C3H6",
+        "class": "alkene",
+        "carbon_number": 3,
+        "notes": "propylene",
+        "properties": {
+            "molar_mass_g_mol": 42.0797,
+            "phase_25C": "gas"
+        },
+        "safety": {
+            "flammable": "yes",
+            "signal_word": "Danger",
+            "hazard_category": "Extremely flammable gas"
+        }
+    }
+]

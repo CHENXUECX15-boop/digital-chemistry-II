@@ -1,0 +1,282 @@
+{
+    "nodes": [
+        {
+            "id": "M001",
+            "label": "Methanol"
+        },
+        {
+            "id": "M002",
+            "label": "Formaldehyde"
+        },
+        {
+            "id": "M003",
+            "label": "Formic acid"
+        },
+        {
+            "id": "M004",
+            "label": "Carbon monoxide"
+        },
+        {
+            "id": "M005",
+            "label": "Carbon dioxide"
+        },
+        {
+            "id": "M006",
+            "label": "Ethene"
+        },
+        {
+            "id": "M007",
+            "label": "Ethanol"
+        },
+        {
+            "id": "M008",
+            "label": "Acetaldehyde"
+        },
+        {
+            "id": "M009",
+            "label": "Acetic acid"
+        },
+        {
+            "id": "M010",
+            "label": "1-Propanol"
+        },
+        {
+            "id": "M011",
+            "label": "Propanal"
+        },
+        {
+            "id": "M012",
+            "label": "Propionic acid"
+        },
+        {
+            "id": "M013",
+            "label": "2-Propanol"
+        },
+        {
+            "id": "M014",
+            "label": "Acetone"
+        },
+        {
+            "id": "M015",
+            "label": "Propene"
+        }
+    ],
+    "edges": [
+        {
+            "id": "R001",
+            "source": "M001",
+            "target": "M002",
+            "reaction_type": "oxidation",
+            "equation": "CH4O + 1/2 O2 -> CH2O + H2O",
+            "yield_percent": 88,
+            "temperature_C": 250
+        },
+        {
+            "id": "R002",
+            "source": "M002",
+            "target": "M003",
+            "reaction_type": "oxidation",
+            "equation": "CH2O + 1/2 O2 -> CH2O2",
+            "yield_percent": 76,
+            "temperature_C": 80
+        },
+        {
+            "id": "R003",
+            "source": "M003",
+            "target": "M005",
+            "reaction_type": "oxidation",
+            "equation": "CH2O2 + 1/2 O2 -> CO2 + H2O",
+            "yield_percent": 90,
+            "temperature_C": 120
+        },
+        {
+            "id": "R004",
+            "source": "M001",
+            "target": "M005",
+            "reaction_type": "complete oxidation",
+            "equation": "CH4O + 3/2 O2 -> CO2 + 2 H2O",
+            "yield_percent": 99,
+            "temperature_C": 300
+        },
+        {
+            "id": "R005",
+            "source": "M001",
+            "target": "M004",
+            "reaction_type": "partial oxidation",
+            "equation": "CH4O + O2 -> CO + 2 H2O",
+            "yield_percent": 52,
+            "temperature_C": 250
+        },
+        {
+            "id": "R006",
+            "source": "M002",
+            "target": "M004",
+            "reaction_type": "partial oxidation",
+            "equation": "CH2O + 1/2 O2 -> CO + H2O",
+            "yield_percent": 48,
+            "temperature_C": 150
+        },
+        {
+            "id": "R007",
+            "source": "M004",
+            "target": "M005",
+            "reaction_type": "oxidation",
+            "equation": "CO + 1/2 O2 -> CO2",
+            "yield_percent": 99,
+            "temperature_C": 200
+        },
+        {
+            "id": "R008",
+            "source": "M006",
+            "target": "M007",
+            "reaction_type": "hydration",
+            "equation": "C2H4 + H2O -> C2H6O",
+            "yield_percent": 72,
+            "temperature_C": 25
+        },
+        {
+            "id": "R009",
+            "source": "M007",
+            "target": "M006",
+            "reaction_type": "dehydration",
+            "equation": "C2H6O -> C2H4 + H2O",
+            "yield_percent": 70,
+            "temperature_C": 180
+        },
+        {
+            "id": "R010",
+            "source": "M007",
+            "target": "M008",
+            "reaction_type": "oxidation",
+            "equation": "C2H6O + 1/2 O2 -> C2H4O + H2O",
+            "yield_percent": 68,
+            "temperature_C": 250
+        },
+        {
+            "id": "R011",
+            "source": "M008",
+            "target": "M009",
+            "reaction_type": "oxidation",
+            "equation": "C2H4O + 1/2 O2 -> C2H4O2",
+            "yield_percent": 82,
+            "temperature_C": 60
+        },
+        {
+            "id": "R012",
+            "source": "M007",
+            "target": "M009",
+            "reaction_type": "oxidation",
+            "equation": "C2H6O + O2 -> C2H4O2 + H2O",
+            "yield_percent": 58,
+            "temperature_C": 180
+        },
+        {
+            "id": "R013",
+            "source": "M007",
+            "target": "M005",
+            "reaction_type": "complete oxidation",
+            "equation": "C2H6O + 3 O2 -> 2 CO2 + 3 H2O",
+            "yield_percent": 99,
+            "temperature_C": 300
+        },
+        {
+            "id": "R014",
+            "source": "M008",
+            "target": "M005",
+            "reaction_type": "complete oxidation",
+            "equation": "C2H4O + 5/2 O2 -> 2 CO2 + 2 H2O",
+            "yield_percent": 99,
+            "temperature_C": 250
+        },
+        {
+            "id": "R015",
+            "source": "M009",
+            "target": "M005",
+            "reaction_type": "complete oxidation",
+            "equation": "C2H4O2 + 2 O2 -> 2 CO2 + 2 H2O",
+            "yield_percent": 99,
+            "temperature_C": 300
+        },
+        {
+            "id": "R016",
+            "source": "M010",
+            "target": "M011",
+            "reaction_type": "oxidation",
+            "equation": "C3H8O + 1/2 O2 -> C3H6O + H2O",
+            "yield_percent": 65,
+            "temperature_C": 220
+        },
+        {
+            "id": "R017",
+            "source": "M011",
+            "target": "M012",
+            "reaction_type": "oxidation",
+            "equation": "C3H6O + 1/2 O2 -> C3H6O2",
+            "yield_percent": 80,
+            "temperature_C": 70
+        },
+        {
+            "id": "R018",
+            "source": "M010",
+            "target": "M012",
+            "reaction_type": "oxidation",
+            "equation": "C3H8O + O2 -> C3H6O2 + H2O",
+            "yield_percent": 56,
+            "temperature_C": 200
+        },
+        {
+            "id": "R019",
+            "source": "M010",
+            "target": "M005",
+            "reaction_type": "complete oxidation",
+            "equation": "C3H8O + 9/2 O2 -> 3 CO2 + 4 H2O",
+            "yield_percent": 99,
+            "temperature_C": 320
+        },
+        {
+            "id": "R020",
+            "source": "M011",
+            "target": "M004",
+            "reaction_type": "partial oxidation",
+            "equation": "C3H6O + 5/2 O2 -> 3 CO + 3 H2O",
+            "yield_percent": 44,
+            "temperature_C": 260
+        },
+        {
+            "id": "R021",
+            "source": "M011",
+            "target": "M005",
+            "reaction_type": "complete oxidation",
+            "equation": "C3H6O + 4 O2 -> 3 CO2 + 3 H2O",
+            "yield_percent": 99,
+            "temperature_C": 300
+        },
+        {
+            "id": "R022",
+            "source": "M013",
+            "target": "M014",
+            "reaction_type": "oxidation",
+            "equation": "C3H8O + 1/2 O2 -> C3H6O + H2O",
+            "yield_percent": 85,
+            "temperature_C": 200
+        },
+        {
+            "id": "R023",
+            "source": "M013",
+            "target": "M015",
+            "reaction_type": "dehydration",
+            "equation": "C3H8O -> C3H6 + H2O",
+            "yield_percent": 68,
+            "temperature_C": 170
+        },
+        {
+            "id": "R024",
+            "source": "M015",
+            "target": "M013",
+            "reaction_type": "hydration",
+            "equation": "C3H6 + H2O -> C3H8O",
+            "yield_percent": 74,
+            "temperature_C": 25
+        }
+    ]
+}
